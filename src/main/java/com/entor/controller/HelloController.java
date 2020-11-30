@@ -18,4 +18,8 @@ public class HelloController {
     public String getPort(){
         return "服务器端口："+port;
     }
+    @GetMapping("/get")
+    public String get(){
+        return "服务器端口："+port;
+    }
 }
